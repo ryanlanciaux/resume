@@ -1,0 +1,166 @@
+var resumeData = {
+	basics: {
+		name: "Ryan Lanciaux",
+		label: "Full stack developer with a focus on front-end technologies",
+		email: "ryan@spaceship.studio",
+		phone: "419.123.1234",
+		website: "http://www.spaceship.studio"
+	},
+	location: {
+		address: "",
+		postalCode: "48104",
+		city: "Ann Arbor",
+		countryCode: "ISO-3166-1",
+		region: "Michigan"
+	},
+	profiles:[
+		{
+			network: "Twitter",
+			username: "ryanlanciaux",
+			url: "http://www.twitter.com/ryanlanciaux"
+		}
+	],
+	work: [
+    {
+      company: "Spaceship Studio, LLC.",
+			position: "Founding Member",
+			website: "http://spaceship.studio",
+			startDate: "2017-03-10",
+			endDate: null,
+			highlights: [
+        "Build mobile and web front-end applications with React / React Native / Angular",
+        "Create back-end APIs with .NET Core, Ruby on Rails, and Node",
+        "Mentor teams on front-end technologies",
+        "Help organizations build scalable architecture"
+			]
+    },
+    {
+      company: "OpenGov, Inc.",
+			position: "Senior Software Engineer",
+			website: "http://www.opengov.com",
+			startDate: "2015-02-01",
+			endDate: "2017-03-10",
+			highlights: [
+				"Build applications with React, Node, and Ruby on Rails",
+				"Mentored and trained junior developers",
+				"Work on technical direction"
+			]
+    },
+		{
+			company: "Maritz Research / MaritzCX",
+			position: "Developer Analyst II",
+			website: "http://www.maritz.com",
+			startDate: "2010-06-01",
+			endDate: "2015-02-01",
+			highlights: [
+				"Develop widely used web framework with ASP.NET MVC and Angular / React",
+				"Style websites with CSS / LESS",
+				"Help with architecture and design of various framework modules"
+			]
+		},
+		{
+			company: "MRH Technology Group",
+			position: "Developer",
+			website : "http://www.tourdeforcecrm.com",
+			startDate: "2007-09-01",
+			endDate: "2010-06-01",
+			highlights: [
+				"Develop and design large scale, occasionally connected applications in C# and VB.NET",
+				"Create mobile website in ASP.NET MVC and jQuery",
+				"Migrate legacy code from Visual Basic 6.0 to .NET"
+			]
+		},
+		{
+			company: "Maritz Research",
+			position: "Programmer/Developer II",
+			website: "http://www.maritz.com",
+			startDate: "2005-09-01",
+			endDate: "2007-09-01",
+			highlights: [
+				"Develop and maintain various high-visibility web applications in ASP.NET and SQL Server",
+				"Maintain internal reporting application"
+			]
+		},
+		{
+      company: "Franklin University",
+      hide: true,
+			position: "Web Technician",
+			website: "http://www.franklin.edu",
+			startDate: "2004-08-01",
+			endDate: "2005-09-01",
+			highlights: [
+				"Implement and maintain web redesign and organizational content management system",
+				"Create standards-based web pages and templates for use in the Content Management System",
+				"Develop and maintain various web applications in Java, Perl, Coldfusion and other languages"
+			]
+		},
+	],
+	education: [
+		{
+			institution: "Bowling Green State University",
+			area: "Computer Science",
+			studyType: "Bachelor of Science",
+			startDate: "2000-08-01",
+			endDate: "2004-05-01"
+		}
+	],
+	skills:[
+		{
+			name: "JavaScript",
+			level: "Experienced"
+		},
+		{
+			name: "React",
+			level: "Experienced"
+		},
+		{
+			name: "React Native",
+			level: "Experienced"
+		},
+		{
+			name: "Angular",
+			level: "Intermediate"
+		},
+		{
+			name: "Ionic",
+			level: "Intermediate"
+		},
+		{
+			name: "C#",
+			level: "Experienced"
+		},
+		{
+			name: "ASP.NET MVC",
+			level: "Experienced"
+		},
+		{
+			name: "SQL",
+			level: "Experienced"
+		},
+		{
+			name: "Ruby (Rails)",
+			level: "Intermediate"
+		},
+		{
+			name: "Unit Testing",
+			level: "Intermediate"
+		},
+		{
+			name: "Usability Engineering",
+			level: "Intermediate"
+		},
+		{
+			name: "Node",
+			level: "Experienced"
+		},
+		{
+			name: "Linux",
+			level: "Intermediate"
+		},
+	],
+	interests: [
+		{name: "Programming"},
+		{name: "Road Biking"},
+		{name: "Music"}
+	]
+}

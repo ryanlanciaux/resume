@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link href="styles/site.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="resume">
+
+		</div>
+
+		<script type="text/javascript" src="ryanlanciaux.json"></script>
+		<script src="http://fb.me/react-0.11.0.js"></script>
+		<script src="http://fb.me/JSXTransformer-0.11.0.js"></script>
+		<script src="scripts/monthHelper.js" type="text/javascript"></script>
+		<script src="scripts/resume.jsx" type="text/jsx"></script>
+		<script type="text/jsx">
+			/** @jsx React.DOM */
+				React.renderComponent(
+					<Resume resumeData={resumeData} />,
+					document.getElementById('resume')
+				);
+		</script>
+	</body>
+</html>

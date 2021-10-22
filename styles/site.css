@@ -1,0 +1,71 @@
+body{ font-family: 'Droid Sans', sans-serif; }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+  margin: 10px 0px 10px 0px;
+}
+
+h2{
+   font-size:24px;
+   border-bottom: 1px solid #EDEDED;
+}
+
+h3{
+  font-size: 18px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin: 0px;
+  padding-left: 25px;
+}
+
+li{
+  font-size: 14px;
+  font-weight: 200;
+  margin-bottom: 5px;
+  list-style-type: circle;
+}
+
+.heading, .experience{
+  position: relative;
+}
+
+small {
+  position: absolute;
+  left: 70%;
+  top: 8px;
+  font-size: 12px;
+  color: #777;
+}
+
+.heading small{
+  top:15px;
+}
+
+.skills ul:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.skills li{
+  float: left;
+  list-style-type: none;
+  margin:4px;
+  padding:5px;
+  border-radius: 5px;
+  background-color: #EDEDED;
+}
+
+.education div{
+  font-size: 14px;
+}
